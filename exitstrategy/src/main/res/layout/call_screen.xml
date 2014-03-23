@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/background_dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="INCOMING CALL"
+        android:id="@+id/incomingCall"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/ff_cats_f"
+        android:layout_below="@+id/incomingCall"
+        android:layout_alignLeft="@+id/incomingCall"
+        android:layout_alignStart="@+id/incomingCall" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/awnserButton"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/doneButton"
+        android:layout_alignStart="@+id/doneButton"
+        android:layout_marginTop="40dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doneButton"
+        android:layout_below="@+id/awnserButton"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/snoozeButton"
+        android:layout_below="@+id/doneButton"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

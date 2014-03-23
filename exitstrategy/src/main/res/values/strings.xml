@@ -1,0 +1,26 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Exit Strategy</string>
+    <string name="start_text">  Set Exit Strategy  </string>
+    <string name="cancel_text">Cancel Exit Strategy</string>
+    <string name="endtext">End This Madness When?</string>
+    <string name="ignore">Ignore Call</string>
+    <string name="awnser">Awnser Call</string>
+    <string name="hang_up">Hang Up</string>
+    <string name="info_text">Simple App That Sends A Fake Call at Any Given Time Helping You Get Out Of Any Situation.</string>
+</resources>
